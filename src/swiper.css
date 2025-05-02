@@ -1,0 +1,26 @@
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100vh;
+}
+
+.swiper-button-next {
+    transform: translateY(-20%);
+    transform: translateX(15%);
+    background: url("../img/slider%20next1.svg") no-repeat right / contain !important;
+    height: 400px !important;
+    width: 100px !important;
+    z-index: 30;
+}
+
