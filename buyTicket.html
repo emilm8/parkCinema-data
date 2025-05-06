@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Park Cinema</title>
+  <link rel="stylesheet" href="src/input.css">
+  <link rel="stylesheet" href="src/output.css">
+  <link rel="stylesheet" href="src/swiper.css">
+  <link rel="shortcut icon" href="img/parkcinema.png" type="image/x-icon" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+</head>
+
+<body class="m-0 p-0  bg-[#373737]">
+
+
+  <header class="w-full bg-[#373737] backdrop-blur-sm">
+    <div class="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-20">
+      <div class="flex items-center space-x-2">
+        <a href="index.html">
+          <img src="img/logo.svg" alt="Park Cinema Logo" class="h-10" />
+        </a>
+      </div>
+
+      <nav class="hidden md:flex space-x-8 text-white font-medium">
+        <a href="#" class="hover:text-red-500 transition">Kinoteatrlar</a>
+        <a href="#" class="hover:text-red-500 transition">Aksiyalar</a>
+        <a href="#" class="hover:text-red-500 transition">FAQ</a>
+        <a href="#" class="hover:text-red-500 transition">Əlaqə</a>
+        <a href="#" class="hover:text-red-500 transition">Profil</a>
+      </nav>
+
+
+      
+      
+      <div class="dropdown dropdown-center"    >
+        <div tabindex="0" role="button" id="xezer" class="btn m-1 text-white"><img src="img/flag1.svg" alt="">AZE <i class="fa-solid fa-chevron-down fa-lg"></i></div>
+        <ul tabindex="0" class="dropdown-content menu bg-base-100 rounded-box z-1 w-20 p-2 shadow-sm" id="list">
+          <li><img src="img/flag2.svg" alt=""></li>
+          <li><img src="img/flag3.svg" alt=""></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+
+
+  <main class="min-h-[720px]!">
+    <div class="p-6  overflow-auto">
+      <h1 class="text-3xl font-medium text-white mb-4">Ödəniş</h1>
+  
+      <div class="fixed left-0 w-full z-50">
+        <div class="flex justify-between items-center px-4 py-1 text-sm"></div>
+      </div>
+  
+      <div class="h-2 w-full mb-6">
+        <span id="countdown-label" class="text-gray-400"></span>
+        <div id="countdown-bar" class="h-full bg-red-700 rounded-3xl transition-all duration-1000 ease-linear"></div>
+      </div>
+  
+      <div class="p-4 flex flex-col justify-between md:flex-row gap-4">
+
+        <div class="flex flex-col  gap-4 w-full md:w-1/2">
+          <div class="bg-[#353535] text-white flex items-center justify-between px-4 py-3 border-b border-[#9ca3af]  ">
+            <input class="w-80 bg-transparent outline-none" type="text" placeholder="Email" />
+          </div>
+          <div class="bg-[#353535] text-white flex items-center mt-8 justify-between px-4 py-3 border-b border-[#9ca3af]  ">
+            <input class="w-full bg-transparent outline-none" type="text" placeholder="+994 77 777 77 77" />
+          </div> 
+
+          <label class="flex items-center   text-white text-lg cursor-pointer">
+        <input type="checkbox" class="hidden peer" />
+        <div class="w-5 h-5 mr-3 rounded border border-gray-400 bg-gray-600/30 peer-checked:bg-red-500 peer-checked:border-black transition duration-400"></div>
+        <span>Mən <u>Qaydalar və şərtlər</u> oxudum və razıyam.</span>
+        </label>
+        </div>
+  
+
+        <div class=" w-90   leading-10 tracking-wide rounded-lg p-4 text-white shadow-2xl bg-gray-300/20">
+          <h1 class="text-xl font-semibold mb-2">Seytan deli edib</h1>
+          <p>Flame Towers</p>
+          <p>08.05.2025 09:00 <span>zal2</span></p>
+          <p>Sira 2, Yer 12 (Böyük)</p>
+          <p class="mt-2 font-bold">Ümumi: 5 AZN</p>
+        </div>
+      </div>
+  
+
+     
+  
+
+      <div class="mt-6">
+        <button class="bg-[#A32B1F] text-white rounded-full px-6 py-2 text-[15px] font-semibold hover:bg-[#91261b] transition">
+          <a href="seat.html">Bilet Al</a>
+        </button>
+      </div>
+      <div class="h-full"></div>
+    </div>
+  </main>
+  
+
+
+ 
+
+
+
+
+  <footer class="bg-[#86312A] py-8">
+    <ul class="container max-w-container flex flex-wrap gap-36 max-md:justify-center max-lg:gap-16 max-md:gap-10 max-md:grid max-md:grid-cols-3 max-sm:grid-cols-2 max-xs:grid-cols-1">
+      <li class="flex justify-between flex-col max-md:flex-1 max-xs:items-center">
+        <a href="index.html">
+          <div class="w-[190px] max-sm:flex max-sm:justify-center">
+            <img alt="logo" loading="lazy" width="150" height="80" class="w-[190px] h-[40px] object-contain max-lg:w-[140px]" src="img/logo.svg">
+          </div>
+        </a>
+        <li class="flex gap-7 items-start max-lg:flex-col max-md:flex-row max-xs:justify-center"><img alt="visa"
+            loading="lazy" width="50" height="50" decoding="async" data-nimg="1" class="max-lg:w-[70px] w-[50px] h-[50px]"
+            style="color:transparent" src="img/visa1.svg"></li>
+      </li>
+      <li>
+        <ul class="flex gap-5 flex-col max-xs:items-center">
+          <li><a class="text-[#D9DADB] font-medium text-base hover:text-[#fff] duration-200 cursor-not-allowed">Kinoteatrlar</a></li>
+          <li><a class="text-[#D9DADB] font-medium text-base hover:text-[#fff] duration-200 cursor-not-allowed">Aksiyalar</a></li>
+          <li><a class="text-[#D9DADB] font-medium text-base hover:text-[#fff] duration-200 cursor-not-allowed">FAQ</a></li>
+        </ul>
+      </li>
+      <li>
+        <ul class="flex gap-5 flex-col max-xs:items-center">
+          <li><a class="text-[#D9DADB] font-medium text-base hover:text-[#fff] duration-200 cursor-not-allowed">Profil</a></li>
+          <li><a class="text-[#D9DADB] font-medium text-base hover:text-[#fff] duration-200 cursor-not-allowed">Əlaqə</a></li>
+          <li><a class="text-[#D9DADB] font-medium text-base hover:text-[#fff] duration-200 cursor-not-allowed">Hüquqi Şərtlər</a></li>
+        </ul>
+      </li>
+      <li class="max-md:flex-1">
+        <h3 class="text-[#D9DADB] font-medium text-base mb-5 max-xs:text-center">Bizi izləyin</h3>
+        <ul class="flex gap-5 max-sm:flex-wrap max-xs:justify-center">
+          <li>
+            <a target="_blank" class="text-[#D9DADB] font-medium text-base" href="https://www.instagram.com/parkcinema/">
+              <div class="cursor-pointer w-[40px] h-[40px] rounded-full bg-[#D9DADB] flex items-center justify-center">
+                <i class="fab fa-instagram text-[#D52B1E] text-[22px]"></i>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a target="_blank" class="text-[#D9DADB] font-medium text-base" href="https://www.facebook.com/ParkCinema">
+              <div class="cursor-pointer w-[40px] h-[40px] rounded-full bg-[#D9DADB] flex items-center justify-center">
+                <i class="fab fa-facebook text-[#D52B1E] text-[22px]"></i>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a target="_blank" class="text-[#D9DADB] font-medium text-base" href="https://www.youtube.com/@ParkCinemaAzerbaijan">
+              <div class="cursor-pointer w-[40px] h-[40px] rounded-full bg-[#D9DADB] flex items-center justify-center">
+                <i class="fab fa-youtube text-[#D52B1E] text-[22px]"></i>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="data.js"></script>
+  <script src="countdown.js"></script>
+  
+</body>
+
+</html>
+  

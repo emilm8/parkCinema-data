@@ -1,4 +1,4 @@
-const countdownDuration = 6;
+const countdownDuration = 60;
 
   window.onload = function () {
     const bar = document.getElementById("countdown-bar");

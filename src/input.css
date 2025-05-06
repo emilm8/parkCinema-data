@@ -21,11 +21,22 @@
   }
 
   #table{
-    width: 700px;
-    border-collapse: collapse;
+       width: 800px; 
+       text-align: center;
+       
+       margin-left: 60px;
+
     td{
-  padding: 10px;
-  border: 1px solid red;
+      padding: 7px;
+      border-radius: 5px;
+
     }
 
+  }
+
+  @theme {
+    --breakpoint-mob: 420px;
+    --breakpoint-tab:650px;
+    --breakpoint-desk: 770px;
+    --breakpoint-elave: 1200px;
   }
