@@ -424,441 +424,441 @@
     ],
 
     "detail": [
-        {
-            "id": "6813fd326ea7da51861a9841",
-            "sessionId": 98352,
-            "price": [
+    {
+        "id": "6813fd326ea7da51861a9841",
+        "sessionId": 98352,
+        "price": [
+            {
+                "createdDate": "2025-05-01T23:01:06.789+00:00",
+                "updatedDate": "2025-05-01T23:01:06.789+00:00",
+                "createdBy": null,
+                "updatedBy": null,
+                "id": "6813fd326ea7da51861a9840",
+                "priceId": 1,
+                "ticketId": 1,
+                "name": "Standart",
+                "price": 7.0,
+                "discounts": [
+                    {
+                        "createdDate": "2025-01-14T20:29:33.968+00:00",
+                        "updatedDate": "2025-05-01T23:01:54.889+00:00",
+                        "createdBy": null,
+                        "updatedBy": "admin@admin.com",
+                        "id": "6786c92d2f004915fa0f02c5",
+                        "title": "Взрослый  онлайн",
+                        "discountCode": 15,
+                        "discountValue": 7.0,
+                        "discountType": "ADULT",
+                        "max": 10,
+                        "min": 1
+                    }
+                ]
+            }
+        ],
+        "date": "2025-05-02T00:00:00.000+04:00",
+        "dateOfDay": "2025-05-02T00:00:00.000+04:00",
+        "time": "21:00",
+        "calendarDate": "2025-05-02T00:00:00.000+04:00",
+        "promoCodes": [],
+        "language": "RU",
+        "subtitle": "AZ",
+        "type": "_2D",
+        "hallType": "REGULAR",
+        "movie": {
+            "id": "680a15e087f15d5253eef85c",
+            "name": "Sörfçü",
+            "description": "Birləşmiş Ştatlarda bir neçə il yaşadıqdan sonra bir kişi doğma Avstraliya sahil şəhərinə qayıdır. Bir gün yeniyetmə oğlu ilə birlikdə sörf etməyə gedir, lakin orada sörfçülərdən ibarət bir dəstə ilə qarşıdurma yaşayır. Kişi bu dəstə ilə amansız bir mübarizəyə girir.",
+            "iticketLink": null,
+            "country": "Avstraliya",
+            "director": "Lorkan Finneqan",
+            "actors": [
+                "Nikolas Keyc",
+                "Finn Littl"
+            ],
+            "genres": [
                 {
-                    "createdDate": "2025-05-01T23:01:06.789+00:00",
-                    "updatedDate": "2025-05-01T23:01:06.789+00:00",
-                    "createdBy": null,
-                    "updatedBy": null,
-                    "id": "6813fd326ea7da51861a9840",
-                    "priceId": 1,
-                    "ticketId": 1,
-                    "name": "Standart",
-                    "price": 7.0,
-                    "discounts": [
-                        {
-                            "createdDate": "2025-01-14T20:29:33.968+00:00",
-                            "updatedDate": "2025-05-01T23:01:54.889+00:00",
-                            "createdBy": null,
-                            "updatedBy": "admin@admin.com",
-                            "id": "6786c92d2f004915fa0f02c5",
-                            "title": "Взрослый  онлайн",
-                            "discountCode": 15,
-                            "discountValue": 7.0,
-                            "discountType": "ADULT",
-                            "max": 10,
-                            "min": 1
-                        }
-                    ]
+                    "id": "67729bf2bf13b4256e98c15c",
+                    "title": "Trillerlər"
                 }
             ],
-            "date": "2025-05-02T00:00:00.000+04:00",
-            "dateOfDay": "2025-05-02T00:00:00.000+04:00",
-            "time": "21:00",
-            "calendarDate": "2025-05-02T00:00:00.000+04:00",
-            "promoCodes": [],
-            "language": "RU",
-            "subtitle": "AZ",
-            "type": "_2D",
-            "hallType": "REGULAR",
-            "movie": {
-                "id": "680a15e087f15d5253eef85c",
-                "name": "Sörfçü",
-                "description": "Birləşmiş Ştatlarda bir neçə il yaşadıqdan sonra bir kişi doğma Avstraliya sahil şəhərinə qayıdır. Bir gün yeniyetmə oğlu ilə birlikdə sörf etməyə gedir, lakin orada sörfçülərdən ibarət bir dəstə ilə qarşıdurma yaşayır. Kişi bu dəstə ilə amansız bir mübarizəyə girir.",
-                "iticketLink": null,
-                "country": "Avstraliya",
-                "director": "Lorkan Finneqan",
-                "actors": [
-                    "Nikolas Keyc",
-                    "Finn Littl"
-                ],
-                "genres": [
-                    {
-                        "id": "67729bf2bf13b4256e98c15c",
-                        "title": "Trillerlər"
-                    }
-                ],
-                "movieId": 0,
-                "duration": 110,
-                "firstScreeningDate": "2025-05-01T00:00:00.000+04:00",
-                "lastScreeningDate": "2026-05-01T00:00:00.000+04:00",
-                "year": 2025,
-                "ageLimit": "EIGHTEEN",
-                "languages": [
-                    "RU"
-                ],
-                "image": "1745491394634_Screenshot_2025-04-24_123458.png",
-                "subtitles": [
-                    "AZ"
-                ],
-                "trailerUrl": "",
-                "youtubeUrl": "https://www.youtube.com/watch?v=-dAyNx8_c0o",
-                "active": true,
-                "preSale": false
-            },
-            "hallId": "67bf1a73f08ff82cfff0aa35",
-            "hallTitle": "Zal: 4",
-            "theatreId": "675aea192acad3103ea74e2e",
-            "theatreTitle": "Sevinc Mall",
-            "onlineSale": true,
-            "active": true
+            "movieId": 0,
+            "duration": 110,
+            "firstScreeningDate": "2025-05-01T00:00:00.000+04:00",
+            "lastScreeningDate": "2026-05-01T00:00:00.000+04:00",
+            "year": 2025,
+            "ageLimit": "EIGHTEEN",
+            "languages": [
+                "RU"
+            ],
+            "image": "1745491394634_Screenshot_2025-04-24_123458.png",
+            "subtitles": [
+                "AZ"
+            ],
+            "trailerUrl": "",
+            "youtubeUrl": "https://www.youtube.com/watch?v=-dAyNx8_c0o",
+            "active": true,
+            "preSale": false
         },
-        {
-            "id": "6813fd3e6ea7da51861a993f",
-            "sessionId": 199060,
-            "price": [
+        "hallId": "67bf1a73f08ff82cfff0aa35",
+        "hallTitle": "Zal: 4",
+        "theatreId": "675aea192acad3103ea74e2e",
+        "theatreTitle": "Sevinc Mall",
+        "onlineSale": true,
+        "active": true
+    },
+    {
+        "id": "6813fd3e6ea7da51861a993f",
+        "sessionId": 199060,
+        "price": [
+            {
+                "createdDate": "2025-05-01T23:01:18.563+00:00",
+                "updatedDate": "2025-05-01T23:01:18.563+00:00",
+                "createdBy": null,
+                "updatedBy": null,
+                "id": "6813fd3e6ea7da51861a993e",
+                "priceId": 1,
+                "ticketId": 1,
+                "name": "стандарт",
+                "price": 7.0,
+                "discounts": [
+                    {
+                        "createdDate": "2025-01-14T20:29:33.968+00:00",
+                        "updatedDate": "2025-05-01T23:01:54.889+00:00",
+                        "createdBy": null,
+                        "updatedBy": "admin@admin.com",
+                        "id": "6786c92d2f004915fa0f02c5",
+                        "title": "Взрослый  онлайн",
+                        "discountCode": 15,
+                        "discountValue": 7.0,
+                        "discountType": "ADULT",
+                        "max": 10,
+                        "min": 1
+                    }
+                ]
+            }
+        ],
+        "date": "2025-05-02T00:00:00.000+04:00",
+        "dateOfDay": "2025-05-02T00:00:00.000+04:00",
+        "time": "21:00",
+        "calendarDate": "2025-05-02T00:00:00.000+04:00",
+        "promoCodes": [],
+        "language": "RU",
+        "subtitle": "AZ",
+        "type": "_2D",
+        "hallType": "REGULAR",
+        "movie": {
+            "id": "680a15e087f15d5253eef85c",
+            "name": "Sörfçü",
+            "description": "Birləşmiş Ştatlarda bir neçə il yaşadıqdan sonra bir kişi doğma Avstraliya sahil şəhərinə qayıdır. Bir gün yeniyetmə oğlu ilə birlikdə sörf etməyə gedir, lakin orada sörfçülərdən ibarət bir dəstə ilə qarşıdurma yaşayır. Kişi bu dəstə ilə amansız bir mübarizəyə girir.",
+            "iticketLink": null,
+            "country": "Avstraliya",
+            "director": "Lorkan Finneqan",
+            "actors": [
+                "Nikolas Keyc",
+                "Finn Littl"
+            ],
+            "genres": [
                 {
-                    "createdDate": "2025-05-01T23:01:18.563+00:00",
-                    "updatedDate": "2025-05-01T23:01:18.563+00:00",
-                    "createdBy": null,
-                    "updatedBy": null,
-                    "id": "6813fd3e6ea7da51861a993e",
-                    "priceId": 1,
-                    "ticketId": 1,
-                    "name": "стандарт",
-                    "price": 7.0,
-                    "discounts": [
-                        {
-                            "createdDate": "2025-01-14T20:29:33.968+00:00",
-                            "updatedDate": "2025-05-01T23:01:54.889+00:00",
-                            "createdBy": null,
-                            "updatedBy": "admin@admin.com",
-                            "id": "6786c92d2f004915fa0f02c5",
-                            "title": "Взрослый  онлайн",
-                            "discountCode": 15,
-                            "discountValue": 7.0,
-                            "discountType": "ADULT",
-                            "max": 10,
-                            "min": 1
-                        }
-                    ]
+                    "id": "67729bf2bf13b4256e98c15c",
+                    "title": "Trillerlər"
                 }
             ],
-            "date": "2025-05-02T00:00:00.000+04:00",
-            "dateOfDay": "2025-05-02T00:00:00.000+04:00",
-            "time": "21:00",
-            "calendarDate": "2025-05-02T00:00:00.000+04:00",
-            "promoCodes": [],
-            "language": "RU",
-            "subtitle": "AZ",
-            "type": "_2D",
-            "hallType": "REGULAR",
-            "movie": {
-                "id": "680a15e087f15d5253eef85c",
-                "name": "Sörfçü",
-                "description": "Birləşmiş Ştatlarda bir neçə il yaşadıqdan sonra bir kişi doğma Avstraliya sahil şəhərinə qayıdır. Bir gün yeniyetmə oğlu ilə birlikdə sörf etməyə gedir, lakin orada sörfçülərdən ibarət bir dəstə ilə qarşıdurma yaşayır. Kişi bu dəstə ilə amansız bir mübarizəyə girir.",
-                "iticketLink": null,
-                "country": "Avstraliya",
-                "director": "Lorkan Finneqan",
-                "actors": [
-                    "Nikolas Keyc",
-                    "Finn Littl"
-                ],
-                "genres": [
-                    {
-                        "id": "67729bf2bf13b4256e98c15c",
-                        "title": "Trillerlər"
-                    }
-                ],
-                "movieId": 0,
-                "duration": 110,
-                "firstScreeningDate": "2025-05-01T00:00:00.000+04:00",
-                "lastScreeningDate": "2026-05-01T00:00:00.000+04:00",
-                "year": 2025,
-                "ageLimit": "EIGHTEEN",
-                "languages": [
-                    "RU"
-                ],
-                "image": "1745491394634_Screenshot_2025-04-24_123458.png",
-                "subtitles": [
-                    "AZ"
-                ],
-                "trailerUrl": "",
-                "youtubeUrl": "https://www.youtube.com/watch?v=-dAyNx8_c0o",
-                "active": true,
-                "preSale": false
-            },
-            "hallId": "678761f1a6c6f668e693ef92",
-            "hallTitle": "Zal: 5",
-            "theatreId": "675aea102acad3103ea74531",
-            "theatreTitle": "Metro Park",
-            "onlineSale": true,
-            "active": true
+            "movieId": 0,
+            "duration": 110,
+            "firstScreeningDate": "2025-05-01T00:00:00.000+04:00",
+            "lastScreeningDate": "2026-05-01T00:00:00.000+04:00",
+            "year": 2025,
+            "ageLimit": "EIGHTEEN",
+            "languages": [
+                "RU"
+            ],
+            "image": "1745491394634_Screenshot_2025-04-24_123458.png",
+            "subtitles": [
+                "AZ"
+            ],
+            "trailerUrl": "",
+            "youtubeUrl": "https://www.youtube.com/watch?v=-dAyNx8_c0o",
+            "active": true,
+            "preSale": false
         },
-        {
-            "id": "6813fd046ea7da51861a944b",
-            "sessionId": 191454,
-            "price": [
+        "hallId": "678761f1a6c6f668e693ef92",
+        "hallTitle": "Zal: 5",
+        "theatreId": "675aea102acad3103ea74531",
+        "theatreTitle": "Metro Park",
+        "onlineSale": true,
+        "active": true
+    },
+    {
+        "id": "6813fd046ea7da51861a944b",
+        "sessionId": 191454,
+        "price": [
+            {
+                "createdDate": "2025-05-01T23:00:20.824+00:00",
+                "updatedDate": "2025-05-01T23:00:20.824+00:00",
+                "createdBy": null,
+                "updatedBy": null,
+                "id": "6813fd046ea7da51861a944a",
+                "priceId": 1,
+                "ticketId": 1,
+                "name": "стандарт",
+                "price": 7.0,
+                "discounts": [
+                    {
+                        "createdDate": "2025-01-14T20:29:33.968+00:00",
+                        "updatedDate": "2025-05-01T23:01:54.889+00:00",
+                        "createdBy": null,
+                        "updatedBy": "admin@admin.com",
+                        "id": "6786c92d2f004915fa0f02c5",
+                        "title": "Взрослый  онлайн",
+                        "discountCode": 15,
+                        "discountValue": 7.0,
+                        "discountType": "ADULT",
+                        "max": 10,
+                        "min": 1
+                    },
+                    {
+                        "createdDate": "2025-01-14T20:30:06.775+00:00",
+                        "updatedDate": "2025-05-01T23:01:53.085+00:00",
+                        "createdBy": null,
+                        "updatedBy": "admin@admin.com",
+                        "id": "6786c94e2f004915fa0f0399",
+                        "title": "VIP онлайн",
+                        "discountCode": 18,
+                        "discountValue": 17.0,
+                        "discountType": "DOUBLE",
+                        "max": 5,
+                        "min": 1
+                    }
+                ]
+            }
+        ],
+        "date": "2025-05-02T00:00:00.000+04:00",
+        "dateOfDay": "2025-05-02T00:00:00.000+04:00",
+        "time": "21:15",
+        "calendarDate": "2025-05-02T00:00:00.000+04:00",
+        "promoCodes": [],
+        "language": "RU",
+        "subtitle": "AZ",
+        "type": "_2D",
+        "hallType": "REGULAR",
+        "movie": {
+            "id": "680a15e087f15d5253eef85c",
+            "name": "Sörfçü",
+            "description": "Birləşmiş Ştatlarda bir neçə il yaşadıqdan sonra bir kişi doğma Avstraliya sahil şəhərinə qayıdır. Bir gün yeniyetmə oğlu ilə birlikdə sörf etməyə gedir, lakin orada sörfçülərdən ibarət bir dəstə ilə qarşıdurma yaşayır. Kişi bu dəstə ilə amansız bir mübarizəyə girir.",
+            "iticketLink": null,
+            "country": "Avstraliya",
+            "director": "Lorkan Finneqan",
+            "actors": [
+                "Nikolas Keyc",
+                "Finn Littl"
+            ],
+            "genres": [
                 {
-                    "createdDate": "2025-05-01T23:00:20.824+00:00",
-                    "updatedDate": "2025-05-01T23:00:20.824+00:00",
-                    "createdBy": null,
-                    "updatedBy": null,
-                    "id": "6813fd046ea7da51861a944a",
-                    "priceId": 1,
-                    "ticketId": 1,
-                    "name": "стандарт",
-                    "price": 7.0,
-                    "discounts": [
-                        {
-                            "createdDate": "2025-01-14T20:29:33.968+00:00",
-                            "updatedDate": "2025-05-01T23:01:54.889+00:00",
-                            "createdBy": null,
-                            "updatedBy": "admin@admin.com",
-                            "id": "6786c92d2f004915fa0f02c5",
-                            "title": "Взрослый  онлайн",
-                            "discountCode": 15,
-                            "discountValue": 7.0,
-                            "discountType": "ADULT",
-                            "max": 10,
-                            "min": 1
-                        },
-                        {
-                            "createdDate": "2025-01-14T20:30:06.775+00:00",
-                            "updatedDate": "2025-05-01T23:01:53.085+00:00",
-                            "createdBy": null,
-                            "updatedBy": "admin@admin.com",
-                            "id": "6786c94e2f004915fa0f0399",
-                            "title": "VIP онлайн",
-                            "discountCode": 18,
-                            "discountValue": 17.0,
-                            "discountType": "DOUBLE",
-                            "max": 5,
-                            "min": 1
-                        }
-                    ]
+                    "id": "67729bf2bf13b4256e98c15c",
+                    "title": "Trillerlər"
                 }
             ],
-            "date": "2025-05-02T00:00:00.000+04:00",
-            "dateOfDay": "2025-05-02T00:00:00.000+04:00",
-            "time": "21:15",
-            "calendarDate": "2025-05-02T00:00:00.000+04:00",
-            "promoCodes": [],
-            "language": "RU",
-            "subtitle": "AZ",
-            "type": "_2D",
-            "hallType": "REGULAR",
-            "movie": {
-                "id": "680a15e087f15d5253eef85c",
-                "name": "Sörfçü",
-                "description": "Birləşmiş Ştatlarda bir neçə il yaşadıqdan sonra bir kişi doğma Avstraliya sahil şəhərinə qayıdır. Bir gün yeniyetmə oğlu ilə birlikdə sörf etməyə gedir, lakin orada sörfçülərdən ibarət bir dəstə ilə qarşıdurma yaşayır. Kişi bu dəstə ilə amansız bir mübarizəyə girir.",
-                "iticketLink": null,
-                "country": "Avstraliya",
-                "director": "Lorkan Finneqan",
-                "actors": [
-                    "Nikolas Keyc",
-                    "Finn Littl"
-                ],
-                "genres": [
-                    {
-                        "id": "67729bf2bf13b4256e98c15c",
-                        "title": "Trillerlər"
-                    }
-                ],
-                "movieId": 0,
-                "duration": 110,
-                "firstScreeningDate": "2025-05-01T00:00:00.000+04:00",
-                "lastScreeningDate": "2026-05-01T00:00:00.000+04:00",
-                "year": 2025,
-                "ageLimit": "EIGHTEEN",
-                "languages": [
-                    "RU"
-                ],
-                "image": "1745491394634_Screenshot_2025-04-24_123458.png",
-                "subtitles": [
-                    "AZ"
-                ],
-                "trailerUrl": "",
-                "youtubeUrl": "https://www.youtube.com/watch?v=-dAyNx8_c0o",
-                "active": true,
-                "preSale": false
-            },
-            "hallId": "67f77b727fbe427fd53bef4d",
-            "hallTitle": "Zal: 2",
-            "theatreId": "675aea152acad3103ea749e6",
-            "theatreTitle": "Flame Towers",
-            "onlineSale": true,
-            "active": true
+            "movieId": 0,
+            "duration": 110,
+            "firstScreeningDate": "2025-05-01T00:00:00.000+04:00",
+            "lastScreeningDate": "2026-05-01T00:00:00.000+04:00",
+            "year": 2025,
+            "ageLimit": "EIGHTEEN",
+            "languages": [
+                "RU"
+            ],
+            "image": "1745491394634_Screenshot_2025-04-24_123458.png",
+            "subtitles": [
+                "AZ"
+            ],
+            "trailerUrl": "",
+            "youtubeUrl": "https://www.youtube.com/watch?v=-dAyNx8_c0o",
+            "active": true,
+            "preSale": false
         },
-        {
-            "id": "6813fd0e6ea7da51861a952b",
-            "sessionId": 298714,
-            "price": [
+        "hallId": "67f77b727fbe427fd53bef4d",
+        "hallTitle": "Zal: 2",
+        "theatreId": "675aea152acad3103ea749e6",
+        "theatreTitle": "Flame Towers",
+        "onlineSale": true,
+        "active": true
+    },
+    {
+        "id": "6813fd0e6ea7da51861a952b",
+        "sessionId": 298714,
+        "price": [
+            {
+                "createdDate": "2025-05-01T23:00:30.912+00:00",
+                "updatedDate": "2025-05-01T23:00:30.912+00:00",
+                "createdBy": null,
+                "updatedBy": null,
+                "id": "6813fd0e6ea7da51861a952a",
+                "priceId": 7,
+                "ticketId": 21,
+                "name": "стандарт",
+                "price": 7.0,
+                "discounts": [
+                    {
+                        "createdDate": "2025-01-14T20:29:33.968+00:00",
+                        "updatedDate": "2025-05-01T23:01:54.889+00:00",
+                        "createdBy": null,
+                        "updatedBy": "admin@admin.com",
+                        "id": "6786c92d2f004915fa0f02c5",
+                        "title": "Взрослый  онлайн",
+                        "discountCode": 15,
+                        "discountValue": 7.0,
+                        "discountType": "ADULT",
+                        "max": 10,
+                        "min": 1
+                    }
+                ]
+            }
+        ],
+        "date": "2025-05-02T00:00:00.000+04:00",
+        "dateOfDay": "2025-05-02T00:00:00.000+04:00",
+        "time": "23:00",
+        "calendarDate": "2025-05-02T00:00:00.000+04:00",
+        "promoCodes": [],
+        "language": "RU",
+        "subtitle": "AZ",
+        "type": "_2D",
+        "hallType": "REGULAR",
+        "movie": {
+            "id": "680a15e087f15d5253eef85c",
+            "name": "Sörfçü",
+            "description": "Birləşmiş Ştatlarda bir neçə il yaşadıqdan sonra bir kişi doğma Avstraliya sahil şəhərinə qayıdır. Bir gün yeniyetmə oğlu ilə birlikdə sörf etməyə gedir, lakin orada sörfçülərdən ibarət bir dəstə ilə qarşıdurma yaşayır. Kişi bu dəstə ilə amansız bir mübarizəyə girir.",
+            "iticketLink": null,
+            "country": "Avstraliya",
+            "director": "Lorkan Finneqan",
+            "actors": [
+                "Nikolas Keyc",
+                "Finn Littl"
+            ],
+            "genres": [
                 {
-                    "createdDate": "2025-05-01T23:00:30.912+00:00",
-                    "updatedDate": "2025-05-01T23:00:30.912+00:00",
-                    "createdBy": null,
-                    "updatedBy": null,
-                    "id": "6813fd0e6ea7da51861a952a",
-                    "priceId": 7,
-                    "ticketId": 21,
-                    "name": "стандарт",
-                    "price": 7.0,
-                    "discounts": [
-                        {
-                            "createdDate": "2025-01-14T20:29:33.968+00:00",
-                            "updatedDate": "2025-05-01T23:01:54.889+00:00",
-                            "createdBy": null,
-                            "updatedBy": "admin@admin.com",
-                            "id": "6786c92d2f004915fa0f02c5",
-                            "title": "Взрослый  онлайн",
-                            "discountCode": 15,
-                            "discountValue": 7.0,
-                            "discountType": "ADULT",
-                            "max": 10,
-                            "min": 1
-                        }
-                    ]
+                    "id": "67729bf2bf13b4256e98c15c",
+                    "title": "Trillerlər"
                 }
             ],
-            "date": "2025-05-02T00:00:00.000+04:00",
-            "dateOfDay": "2025-05-02T00:00:00.000+04:00",
-            "time": "23:00",
-            "calendarDate": "2025-05-02T00:00:00.000+04:00",
-            "promoCodes": [],
-            "language": "RU",
-            "subtitle": "AZ",
-            "type": "_2D",
-            "hallType": "REGULAR",
-            "movie": {
-                "id": "680a15e087f15d5253eef85c",
-                "name": "Sörfçü",
-                "description": "Birləşmiş Ştatlarda bir neçə il yaşadıqdan sonra bir kişi doğma Avstraliya sahil şəhərinə qayıdır. Bir gün yeniyetmə oğlu ilə birlikdə sörf etməyə gedir, lakin orada sörfçülərdən ibarət bir dəstə ilə qarşıdurma yaşayır. Kişi bu dəstə ilə amansız bir mübarizəyə girir.",
-                "iticketLink": null,
-                "country": "Avstraliya",
-                "director": "Lorkan Finneqan",
-                "actors": [
-                    "Nikolas Keyc",
-                    "Finn Littl"
-                ],
-                "genres": [
-                    {
-                        "id": "67729bf2bf13b4256e98c15c",
-                        "title": "Trillerlər"
-                    }
-                ],
-                "movieId": 0,
-                "duration": 110,
-                "firstScreeningDate": "2025-05-01T00:00:00.000+04:00",
-                "lastScreeningDate": "2026-05-01T00:00:00.000+04:00",
-                "year": 2025,
-                "ageLimit": "EIGHTEEN",
-                "languages": [
-                    "RU"
-                ],
-                "image": "1745491394634_Screenshot_2025-04-24_123458.png",
-                "subtitles": [
-                    "AZ"
-                ],
-                "trailerUrl": "",
-                "youtubeUrl": "https://www.youtube.com/watch?v=-dAyNx8_c0o",
-                "active": true,
-                "preSale": false
-            },
-            "hallId": "67fcb0fa87f15d5253ec4c9b",
-            "hallTitle": "Zal: 2",
-            "theatreId": "675aea0a2acad3103ea740db",
-            "theatreTitle": "Park Bulvar",
-            "onlineSale": true,
-            "active": true
+            "movieId": 0,
+            "duration": 110,
+            "firstScreeningDate": "2025-05-01T00:00:00.000+04:00",
+            "lastScreeningDate": "2026-05-01T00:00:00.000+04:00",
+            "year": 2025,
+            "ageLimit": "EIGHTEEN",
+            "languages": [
+                "RU"
+            ],
+            "image": "1745491394634_Screenshot_2025-04-24_123458.png",
+            "subtitles": [
+                "AZ"
+            ],
+            "trailerUrl": "",
+            "youtubeUrl": "https://www.youtube.com/watch?v=-dAyNx8_c0o",
+            "active": true,
+            "preSale": false
         },
-        {
-            "id": "6813fd056ea7da51861a9453",
-            "sessionId": 191455,
-            "price": [
+        "hallId": "67fcb0fa87f15d5253ec4c9b",
+        "hallTitle": "Zal: 2",
+        "theatreId": "675aea0a2acad3103ea740db",
+        "theatreTitle": "Park Bulvar",
+        "onlineSale": true,
+        "active": true
+    },
+    {
+        "id": "6813fd056ea7da51861a9453",
+        "sessionId": 191455,
+        "price": [
+            {
+                "createdDate": "2025-05-01T23:00:21.183+00:00",
+                "updatedDate": "2025-05-01T23:00:21.183+00:00",
+                "createdBy": null,
+                "updatedBy": null,
+                "id": "6813fd056ea7da51861a9452",
+                "priceId": 1,
+                "ticketId": 1,
+                "name": "стандарт",
+                "price": 7.0,
+                "discounts": [
+                    {
+                        "createdDate": "2025-01-14T20:29:33.968+00:00",
+                        "updatedDate": "2025-05-01T23:01:54.889+00:00",
+                        "createdBy": null,
+                        "updatedBy": "admin@admin.com",
+                        "id": "6786c92d2f004915fa0f02c5",
+                        "title": "Взрослый  онлайн",
+                        "discountCode": 15,
+                        "discountValue": 7.0,
+                        "discountType": "ADULT",
+                        "max": 10,
+                        "min": 1
+                    },
+                    {
+                        "createdDate": "2025-01-14T20:30:06.775+00:00",
+                        "updatedDate": "2025-05-01T23:01:53.085+00:00",
+                        "createdBy": null,
+                        "updatedBy": "admin@admin.com",
+                        "id": "6786c94e2f004915fa0f0399",
+                        "title": "VIP онлайн",
+                        "discountCode": 18,
+                        "discountValue": 17.0,
+                        "discountType": "DOUBLE",
+                        "max": 5,
+                        "min": 1
+                    }
+                ]
+            }
+        ],
+        "date": "2025-05-02T00:00:00.000+04:00",
+        "dateOfDay": "2025-05-02T00:00:00.000+04:00",
+        "time": "23:10",
+        "calendarDate": "2025-05-02T00:00:00.000+04:00",
+        "promoCodes": [],
+        "language": "RU",
+        "subtitle": "AZ",
+        "type": "_2D",
+        "hallType": "REGULAR",
+        "movie": {
+            "id": "680a15e087f15d5253eef85c",
+            "name": "Sörfçü",
+            "description": "Birləşmiş Ştatlarda bir neçə il yaşadıqdan sonra bir kişi doğma Avstraliya sahil şəhərinə qayıdır. Bir gün yeniyetmə oğlu ilə birlikdə sörf etməyə gedir, lakin orada sörfçülərdən ibarət bir dəstə ilə qarşıdurma yaşayır. Kişi bu dəstə ilə amansız bir mübarizəyə girir.",
+            "iticketLink": null,
+            "country": "Avstraliya",
+            "director": "Lorkan Finneqan",
+            "actors": [
+                "Nikolas Keyc",
+                "Finn Littl"
+            ],
+            "genres": [
                 {
-                    "createdDate": "2025-05-01T23:00:21.183+00:00",
-                    "updatedDate": "2025-05-01T23:00:21.183+00:00",
-                    "createdBy": null,
-                    "updatedBy": null,
-                    "id": "6813fd056ea7da51861a9452",
-                    "priceId": 1,
-                    "ticketId": 1,
-                    "name": "стандарт",
-                    "price": 7.0,
-                    "discounts": [
-                        {
-                            "createdDate": "2025-01-14T20:29:33.968+00:00",
-                            "updatedDate": "2025-05-01T23:01:54.889+00:00",
-                            "createdBy": null,
-                            "updatedBy": "admin@admin.com",
-                            "id": "6786c92d2f004915fa0f02c5",
-                            "title": "Взрослый  онлайн",
-                            "discountCode": 15,
-                            "discountValue": 7.0,
-                            "discountType": "ADULT",
-                            "max": 10,
-                            "min": 1
-                        },
-                        {
-                            "createdDate": "2025-01-14T20:30:06.775+00:00",
-                            "updatedDate": "2025-05-01T23:01:53.085+00:00",
-                            "createdBy": null,
-                            "updatedBy": "admin@admin.com",
-                            "id": "6786c94e2f004915fa0f0399",
-                            "title": "VIP онлайн",
-                            "discountCode": 18,
-                            "discountValue": 17.0,
-                            "discountType": "DOUBLE",
-                            "max": 5,
-                            "min": 1
-                        }
-                    ]
+                    "id": "67729bf2bf13b4256e98c15c",
+                    "title": "Trillerlər"
                 }
             ],
-            "date": "2025-05-02T00:00:00.000+04:00",
-            "dateOfDay": "2025-05-02T00:00:00.000+04:00",
-            "time": "23:10",
-            "calendarDate": "2025-05-02T00:00:00.000+04:00",
-            "promoCodes": [],
-            "language": "RU",
-            "subtitle": "AZ",
-            "type": "_2D",
-            "hallType": "REGULAR",
-            "movie": {
-                "id": "680a15e087f15d5253eef85c",
-                "name": "Sörfçü",
-                "description": "Birləşmiş Ştatlarda bir neçə il yaşadıqdan sonra bir kişi doğma Avstraliya sahil şəhərinə qayıdır. Bir gün yeniyetmə oğlu ilə birlikdə sörf etməyə gedir, lakin orada sörfçülərdən ibarət bir dəstə ilə qarşıdurma yaşayır. Kişi bu dəstə ilə amansız bir mübarizəyə girir.",
-                "iticketLink": null,
-                "country": "Avstraliya",
-                "director": "Lorkan Finneqan",
-                "actors": [
-                    "Nikolas Keyc",
-                    "Finn Littl"
-                ],
-                "genres": [
-                    {
-                        "id": "67729bf2bf13b4256e98c15c",
-                        "title": "Trillerlər"
-                    }
-                ],
-                "movieId": 0,
-                "duration": 110,
-                "firstScreeningDate": "2025-05-01T00:00:00.000+04:00",
-                "lastScreeningDate": "2026-05-01T00:00:00.000+04:00",
-                "year": 2025,
-                "ageLimit": "EIGHTEEN",
-                "languages": [
-                    "RU"
-                ],
-                "image": "1745491394634_Screenshot_2025-04-24_123458.png",
-                "subtitles": [
-                    "AZ"
-                ],
-                "trailerUrl": "",
-                "youtubeUrl": "https://www.youtube.com/watch?v=-dAyNx8_c0o",
-                "active": true,
-                "preSale": false
-            },
-            "hallId": "67f77b727fbe427fd53bef4d",
-            "hallTitle": "Zal: 2",
-            "theatreId": "675aea152acad3103ea749e6",
-            "theatreTitle": "Flame Towers",
-            "onlineSale": true,
-            "active": true
-        }
-    ]
+            "movieId": 0,
+            "duration": 110,
+            "firstScreeningDate": "2025-05-01T00:00:00.000+04:00",
+            "lastScreeningDate": "2026-05-01T00:00:00.000+04:00",
+            "year": 2025,
+            "ageLimit": "EIGHTEEN",
+            "languages": [
+                "RU"
+            ],
+            "image": "1745491394634_Screenshot_2025-04-24_123458.png",
+            "subtitles": [
+                "AZ"
+            ],
+            "trailerUrl": "",
+            "youtubeUrl": "https://www.youtube.com/watch?v=-dAyNx8_c0o",
+            "active": true,
+            "preSale": false
+        },
+        "hallId": "67f77b727fbe427fd53bef4d",
+        "hallTitle": "Zal: 2",
+        "theatreId": "675aea152acad3103ea749e6",
+        "theatreTitle": "Flame Towers",
+        "onlineSale": true,
+        "active": true
+    }
+]
 }

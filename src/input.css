@@ -1,1 +1,31 @@
 @import "tailwindcss";
+
+#xezer{
+    background-color: #1a1a1a00;
+    box-shadow: none;
+}
+
+#list {
+    background-color: rgba(172, 172, 172, 0.167);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #e50914; 
+  
+  }
+ 
+  * {
+    scrollbar-color: #e50914 #373737;
+    scrollbar-width: 40px;
+  
+  }
+
+  #table{
+    width: 700px;
+    border-collapse: collapse;
+    td{
+  padding: 10px;
+  border: 1px solid red;
+    }
+
+  }

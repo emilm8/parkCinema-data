@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
   <link rel="stylesheet" href="src/input.css">
   <link rel="stylesheet" href="src/output.css">
   <link rel="stylesheet" href="src/swiper.css">
+ 
   <link rel="shortcut icon" href="img/parkcinema.png" type="image/x-icon" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
     integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
@@ -16,172 +18,106 @@
   <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
-</head>
-
-<body class="m-0 p-0  bg-[#373737]">
-
-
-  <header class="w-full bg-[#373737] backdrop-blur-sm">
-    <div class="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-20">
-      <div class="flex items-center space-x-2">
-        <a href="index.html">
-          <img src="img/logo.svg" alt="Park Cinema Logo" class="h-10" />
-        </a>
-      </div>
-
-      <nav class="hidden md:flex space-x-8 text-white font-medium">
-        <a href="#" class="hover:text-red-500 transition">Kinoteatrlar</a>
-        <a href="#" class="hover:text-red-500 transition">Aksiyalar</a>
-        <a href="#" class="hover:text-red-500 transition">FAQ</a>
-        <a href="#" class="hover:text-red-500 transition">Əlaqə</a>
-        <a href="#" class="hover:text-red-500 transition">Profil</a>
-      </nav>
-
-
-      
-      
-      <div class="dropdown dropdown-center"    >
-        <div tabindex="0" role="button" id="xezer" class="btn m-1 text-white"><img src="img/flag1.svg" alt="">AZE <i class="fa-solid fa-chevron-down fa-lg"></i></div>
-        <ul tabindex="0" class="dropdown-content menu bg-base-100 rounded-box z-1 w-20 p-2 shadow-sm" id="list">
-          <li><img src="img/flag2.svg" alt=""></li>
-          <li><img src="img/flag3.svg" alt=""></li>
-        </ul>
-      </div>
-    </div>
-
+ 
+ 
+ </head>
+<body class="m-0 p-0 bg-[#373737] text-white font-sans">
+    <header class="w-full bg-[#373737] backdrop-blur-sm">
+        <div class="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-20">
+          <div class="flex items-center space-x-2">
+            <a href="index.html">
+              <img src="img/logo.svg" alt="Park Cinema Logo" class="h-10" />
+            </a>
+          </div>
     
-  </header>
+          <nav class="hidden md:flex space-x-8 text-white font-medium">
+            <a href="#" class="hover:text-red-500 transition">Kinoteatrlar</a>
+            <a href="#" class="hover:text-red-500 transition">Aksiyalar</a>
+            <a href="#" class="hover:text-red-500 transition">FAQ</a>
+            <a href="#" class="hover:text-red-500 transition">Əlaqə</a>
+            <a href="#" class="hover:text-red-500 transition">Profil</a>
+          </nav>
+    
+    
+          
+          
+          <div class="dropdown dropdown-center"    >
+            <div tabindex="0" role="button" id="xezer" class="btn m-1 text-white"><img src="img/flag1.svg" alt="">AZE <i class="fa-solid fa-chevron-down fa-lg"></i></div>
+            <ul tabindex="0" class="dropdown-content menu bg-base-100 rounded-box z-1 w-20 p-2 shadow-sm" id="list">
+              <li><img src="img/flag2.svg" alt=""></li>
+              <li><img src="img/flag3.svg" alt=""></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+    
 
 
+      <main>
+    <div class="p-6 ">
+    <h1 class="text-3xl font-bold mb-4">Oturacaq Seçimi</h1>
+    
+    <div class="flex bg-gray-800 bg-center bg-no-repeat bg-cover rounded-lg overflow-hidden bg-[url('https://new.parkcinema.az/images/movie-herobg.svg')]">
 
-
+        <img src="img/cardP.webp" alt="Movie Poster" class="w-48 bg-black bg-opacity-60 p-2 h-auto object-cover rounded-2xl" />
+        
+        
+        <div class="p-4 flex-1 relative bg-cover bg-black bg-opacity-80 bg-center" >
+            
+            <div class="absolute p-2 inset-0  z-0"></div>
+  
+     <ul class="space-y-2 rounded-lg w-fit   relative z-10">
+      <li class="text-l">Qisas 2</li>
+      <li class="text-l">2D</li>
+      <li class="text-sm flex items-center gap-2">
+     <i class="fa-solid fa-calendar-days" style="color: #ffffff;"></i>05.05.2025 
+      </li>
+      <li class="text-sm flex items-center gap-2">
+        <i class="fa-solid fa-clock" style="color: #ffffff;"></i>23:55 
+      </li>
+      <li class="text-m">Dil: RU</li>
+      <li class="text-m">Kinoteatr: Flame Towers</li>
+      <li class="text-l">Zal: 5</li>
+      <li class="text-l">Müddət: 02:20:00</li>
+    </ul>
+  </div>
+  
+    </div>
 
  
-
-  <main>
-   
-    <div class=" max-md:flex max-md:flex-col-reverse gap-5  m-10 overflow-hidden h-full" id="film">
-     
+    <div class="flex   justify-between  mt-4">
+      <div class="flex items-center space-x-3">
+        <span class="w-4 h-4 bg-gray-300 rounded-full inline-block"></span>
+        <span>Mövcuddur</span> 
+        <span class="w-4 h-4 bg-black rounded-full inline-block"></span>
+        <span>Tutulmuş</span>
+         <span class="w-4 h-4 bg-red-600 rounded-full inline-block"></span>
+        <span>Seçilmiş</span>
+      </div>
+      
+    
+    <div class="flex justify-end space-x-8 text-lg">
+      <span>Böyük 7 AZN</span>
+      <span>İkili 17 AZN</span>
     </div>
-    
-    <div class="flex items-center gap-8 justify-between p-4 w-full bg-[#373737]p-4 max-md:flex-col">
-      <div class="md:max-w-[400px] max-sm:max-w-full max-md:max-w-full max-md:px-5 max-sm:pl-2">
-        <div class="flex items-center gap-2 relative">
-           <i class="fa-solid fa-chevron-left fa-xl" style="color: #ffffff;"></i>
-          
-           <div class="flex overflow-hidden">
-            <div class="flex">  
-
-               <div class="min-w-[60px] mx-1 bg-a ">
-                <div class="flex flex-col items-center w-[60px] h-[100px] rounded-[40px] duration-200 cursor-pointer justify-between hover:bg-red-700 py-3 bg-[#D9DADB]">
-                  <span class="text-[16px] text-black">May</span>
-                  <div class="rounded-full duration-200 text-white text-[16px] w-[48px] h-[48px] flex justify-center items-center bg-[#353535]">
-                    5
-                  </div>
-                </div>
-              </div>
-              
-               <div class="min-w-[60px] mx-1">
-                <div class="flex flex-col items-center w-[60px] h-[100px] rounded-[40px] duration-200 cursor-pointer justify-between py-3 bg-[#474747]">
-                  <span class="text-[16px] text-[#D9DADB]">May</span>
-                  <div class="rounded-full duration-200 text-white text-[16px] w-[48px] h-[48px] flex justify-center items-center bg-[#606060]">
-                    6
-                  </div>
-                </div>
-              </div>
-              
-               <div class="min-w-[60px] mx-1">
-                <div class="flex flex-col items-center w-[60px] h-[100px] rounded-[40px] duration-200 cursor-pointer justify-between py-3 bg-[#474747]">
-                  <span class="text-[16px] text-[#D9DADB]">May</span>
-                  <div class="rounded-full duration-200 text-white text-[16px] w-[48px] h-[48px] flex justify-center items-center bg-[#606060]">
-                    7
-                  </div>
-                </div>
-              </div>
-              
-               <div class="min-w-[60px] mx-1">
-                <div class="flex flex-col items-center w-[60px] h-[100px] rounded-[40px] duration-200 cursor-pointer justify-between py-3 bg-[#474747]">
-                  <span class="text-[16px] text-[#D9DADB]">May</span>
-                  <div class="rounded-full duration-200 text-white text-[16px] w-[48px] h-[48px] flex justify-center items-center bg-[#606060]">
-                    8
-                  </div>
-                </div>
-              </div>
-              
-               <div class="min-w-[60px] mx-1">
-                <div class="flex flex-col items-center w-[60px] h-[100px] rounded-[40px] duration-200 cursor-pointer justify-between py-3 bg-[#474747]">
-                  <span class="text-[16px] text-[#D9DADB]">May</span>
-                  <div class="rounded-full duration-200 text-white text-[16px] w-[48px] h-[48px] flex justify-center items-center bg-[#606060]">
-                    9
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-           <i class="fa-solid fa-chevron-right  fa-xl" style="color: #ffffff;"></i>
-        </div>
-      </div>
-      
-       <div class="flex items-center gap-8 w-full max-md:flex-col max-md:gap-3">
-        <div class="flex items-center gap-8 w-full">
-           <div class="w-full pt-4">
-            <div class="relative w-full">
-              <div class="flex items-center justify-between w-fullitalic border-b border-gray-400 text-white pb-1">
-             <input type="text" class="italic" placeholder="Kinoteatrlar">
-              <i class="fa-solid fa-caret-down" style="color: #000000;"></i>
-              </div>
-            </div>
-          </div>
-          
-           <div class="w-full pt-4">
-            <div class="relative w-full">
-              <div class="flex items-center justify-between w-full border-b border-gray-400 text-white pb-1">
-                <input type="number" class="italic" placeholder="Dil">
-                <i class="fa-solid fa-caret-down" style="color: #000000;"></i>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
-
-    
-    <div class="w-full bg-[#353535] text-white flex items-center justify-between px-6 py-3 border-b border-[#9ca3af]">
-       
-      <div class="w-[80px]   text-[15px]">21:00</div>
-    
-      
-      <div class=" text-[15px] ">Sevinc Mall | Zal: 4</div>
-    
-     
-      <div class="text-[15px]">2D
-        
-      </div>
-    
-      
-      <div class="w-[40px] ">
-        <div class="w-5 h-5 rounded-full overflow-hidden">
-          <img src="https://flagcdn.com/w40/ru.png" alt="RU" class="w-full h-full object-cover" />
-        </div>
-      </div>
-    
-      
-      <div class="border border-white rounded-md px-2 py-1 text-center leading-tight text-[13px]">
-        <div class="text-sm font-semibold">AZE</div>
-        <div class="text-[10px]">sub</div>
-      </div>
-    
-      <div class="ml-8">
-        <button class="bg-[#A32B1F] text-white rounded-full px-6 py-2 text-[15px] font-semibold hover:bg-[#91261b] transition">
-         <a href="seat.html">Bilet Al</a> 
-        </button>
-      </div>
-    </div>
-    
-    
-  </main>
+  </div>  
   
+  
+  <div id="oturacaqlar" class="py-4 px-6">
+    <table id="table"></table>
+  </div>
 
+  <div class="flex justify-between mb-4">
+    <div class="px-6 py-2">
+        <span>Ümumi: 0 AZN</span>
+    </div>
+    <button class="bg-[#A32B1F] w-80 mr-5 text-white rounded-full   text-[15px] font-semibold hover:bg-[#91261b] transition">
+     <a href="buyTicket.htm">Bilet Al</a> 
+    </button>
+  </div>
+      </main>
+ 
 
   <footer class="bg-[#86312A] py-8 ">
     <ul
@@ -302,11 +238,6 @@
 
   </footer>
 
-  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-  <script src="data.js"></script>
-  <script src="swiper.js"></script>
-  <script src="detail.js"></script>
+  <script src="seat.js"></script>
 </body>
-
 </html>
-  
