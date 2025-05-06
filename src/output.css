@@ -345,6 +345,9 @@
   .ml-8 {
     margin-left: calc(var(--spacing) * 8);
   }
+  .ml-10 {
+    margin-left: calc(var(--spacing) * 10);
+  }
   .flex {
     display: flex;
   }
@@ -461,6 +464,9 @@
   }
   .max-w-\[1400px\] {
     max-width: 1400px;
+  }
+  .max-w-\[1500px\] {
+    max-width: 1500px;
   }
   .min-w-\[60px\] {
     min-width: 60px;
@@ -1224,7 +1230,7 @@
   box-shadow: none;
 }
 #list {
-  background-color: rgba(172, 172, 172, 0.167);
+  background-color: rgba(172, 172, 172, 0.475);
 }
 ::-webkit-scrollbar-thumb {
   background-color: #e50914;
