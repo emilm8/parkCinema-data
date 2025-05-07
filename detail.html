@@ -128,32 +128,45 @@
            <i class="fa-solid fa-chevron-right  fa-xl" style="color: #ffffff;"></i>
         </div>
       </div>
-      
-       <div class="flex items-center overflow-auto gap-8 w-full max-md:flex-col max-md:gap-3">
+      <div class="flex items-center overflow-auto gap-8 w-full max-md:flex-col max-md:gap-3">
         <div class="flex items-center gap-8 w-full">
-           <div class="w-full pt-4">
-            <div class="relative w-full">
-              <div class="flex items-center justify-between w-fullitalic border-b border-gray-400 text-white pb-1">
-             <input type="text" class="italic" placeholder="Kinoteatrlar">
-              <i class="fa-solid fa-caret-down" style="color: #000000;"></i>
-              </div>
-            </div>
-          </div>
           
-           <div class="w-full pt-4">
+          <div class="w-full pt-4">
             <div class="relative w-full">
               <div class="flex items-center justify-between w-full border-b border-gray-400 text-white pb-1">
-                <input type="number" class="italic" placeholder="Dil">
-                <i class="fa-solid fa-caret-down" style="color: #000000;"></i>
+                <select class="italic w-full bg-transparent text-white focus:outline-none">
+                  <option value="" disabled selected>Kinoteatrlar</option>
+                  <option>Park Bulvar</option>
+                  <option>Metro Park</option>
+                  <option>Flame Towers</option>
+                  <option>Sevinc Mall</option>
+                  <option>Shahdag</option>
+                </select>
               </div>
             </div>
           </div>
+      
+          <div class="w-full pt-4">
+            <div class="relative w-full">
+              <div class="flex items-center justify-between w-full border-b border-gray-400 text-white pb-1">
+                <select class="italic w-full  bg-transparent text-white focus:outline-none">
+                  <option  disabled selected>Dil</option>
+                  <option>AZ</option>
+                  <option>TR</option>
+                  <option>RU</option>
+                  <option>EN</option>
+                </select>
+              </div>
+            </div>
+          </div>
+      
         </div>
       </div>
+      
     </div>
 
     
-    <table id="biletler" class="w-full bg-[#353535] text-white   px-6 py-3 border-b border-[#9ca3af]">
+    <table id="biletler" class="w-full bg-[#353535] text-white  px-6 py-3 border-b border-[#9ca3af]">
         <tbody></tbody>
     </table>
 

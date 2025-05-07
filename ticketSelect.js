@@ -28,9 +28,9 @@ function showFilm() {
              </div>
             </div>
             </td>
-            <td class="py-4 px-2 text-end max-sm:p-1">
-                <a class="md:!w-max inline-block text-end" href="/seat.html?id=${item.id}">
-                    <button class="flex items-center justify-center bg-[#ff0d0d] px-4 py-2 opacity-65  h-[36px]    text-sm   duration-200 rounded-[20px]   transition md:!w-[160px] !w-[100px] max-sm:!w-[60px] max-sm:!p-0 max-sm:!text-[12px] max-sm:leading-3">Bilet Al</button>
+            <td class="py-4 px-2 text-end  max-sm:p-1">
+                <a class="md:!w-max  inline-block text-end" href="/seat.html?id=${item.id}">
+                    <button class="flex items-center justify-center  bg-[#ff0d0d] px-4 py-2 opacity-65  h-[36px]    text-sm   duration-200 rounded-[20px]   transition md:!w-[160px] !w-[100px] max-sm:!w-[60px] max-sm:!p-0 max-sm:!text-[12px]   max-sm:leading-3">Bilet Al</button>
                 </a>
             </td>
         </tr>

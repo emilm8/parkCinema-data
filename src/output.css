@@ -199,6 +199,9 @@
   }
 }
 @layer utilities {
+  .pointer-events-none {
+    pointer-events: none;
+  }
   .absolute {
     position: absolute;
   }
@@ -213,6 +216,9 @@
   }
   .top-0 {
     top: calc(var(--spacing) * 0);
+  }
+  .right-2 {
+    right: calc(var(--spacing) * 2);
   }
   .right-4 {
     right: calc(var(--spacing) * 4);
@@ -337,8 +343,8 @@
   .mb-6 {
     margin-bottom: calc(var(--spacing) * 6);
   }
-  .ml-36 {
-    margin-left: calc(var(--spacing) * 36);
+  .ml-20 {
+    margin-left: calc(var(--spacing) * 20);
   }
   .flex {
     display: flex;
@@ -433,11 +439,11 @@
   .w-48 {
     width: calc(var(--spacing) * 48);
   }
+  .w-70 {
+    width: calc(var(--spacing) * 70);
+  }
   .w-80 {
     width: calc(var(--spacing) * 80);
-  }
-  .w-96 {
-    width: calc(var(--spacing) * 96);
   }
   .w-\[40px\] {
     width: 40px;
@@ -571,6 +577,13 @@
       --tw-space-y-reverse: 0;
       margin-block-start: calc(calc(var(--spacing) * 2) * var(--tw-space-y-reverse));
       margin-block-end: calc(calc(var(--spacing) * 2) * calc(1 - var(--tw-space-y-reverse)));
+    }
+  }
+  .space-x-1 {
+    :where(& > :not(:last-child)) {
+      --tw-space-x-reverse: 0;
+      margin-inline-start: calc(calc(var(--spacing) * 1) * var(--tw-space-x-reverse));
+      margin-inline-end: calc(calc(var(--spacing) * 1) * calc(1 - var(--tw-space-x-reverse)));
     }
   }
   .space-x-2 {
@@ -931,6 +944,9 @@
   .text-gray-400 {
     color: var(--color-gray-400);
   }
+  .text-red-500 {
+    color: var(--color-red-500);
+  }
   .text-white {
     color: var(--color-white);
   }
@@ -1085,6 +1101,12 @@
       @media (hover: hover) {
         color: var(--color-red-600);
       }
+    }
+  }
+  .focus\:outline-none {
+    &:focus {
+      --tw-outline-style: none;
+      outline-style: none;
     }
   }
   .max-lg\:hidden {
@@ -1264,9 +1286,9 @@
       padding-inline: calc(var(--spacing) * 6);
     }
   }
-  .md\:mb-0 {
+  .md\:mx-auto {
     @media (width >= 48rem) {
-      margin-bottom: calc(var(--spacing) * 0);
+      margin-inline: auto;
     }
   }
   .md\:flex {
@@ -1308,6 +1330,11 @@
     @media (width >= 48rem) {
       --tw-leading: 16px;
       line-height: 16px;
+    }
+  }
+  .lg\:ml-36 {
+    @media (width >= 64rem) {
+      margin-left: calc(var(--spacing) * 36);
     }
   }
   .lg\:px-8 {
