@@ -1,26 +1,22 @@
-/* Swiper container */
-.swiper {
+ .swiper {
   width: 100%;
   height: 100%;
 }
 
-/* Slide styling */
-.swiper-slide {
+ .swiper-slide {
   background-position: center;
   background-size: cover;
 }
 
-/* Slide image */
-.swiper-slide img {
+ .swiper-slide img {
   display: block;
   width: 100%;
   height: 100vh;
   object-fit: cover;
 }
 
-/* Next button base */
-.swiper-button-next {
-  background: url("../img/slider%20next1.svg") no-repeat right / contain !important;
+ .swiper-button-next {
+  background: url("../img/slider%20next1.svg") no-repeat right / contain  !important;
   z-index: 30;
   position: absolute;
   right: 0;
@@ -30,8 +26,7 @@
   width: 60px;
 }
 
-/* Responsive tweaks */
-@media (max-width: 1024px) {
+ @media (max-width: 1024px) {
   .swiper-button-next {
     height: 150px;
     width: 50px;
@@ -42,18 +37,20 @@
 @media (max-width: 768px) {
   .swiper-slide img {
     height: 60vh;
+    max-width: 100%;
+ 
   }
 
   .swiper-button-next {
-    height: 100px;
-    width: 40px;
+   max-height: 100px;
+    max-width: 40px;
     transform: translateY(-50%) translateX(5%);
   }
 }
 
 @media (max-width: 480px) {
   .swiper-slide img {
-    height: 50vh;
+    height: 40vh;
   }
 
   .swiper-button-next {
